@@ -1,2 +1,9 @@
 Matlab 2017a was used for pre-processing of data.
 Major focus was to fill in the blank values with appropriate data and reduce dimensionality.
+For categorical data such as funder; blanks, zeroes, other, unknown was changed to a category named "Rare".
+for numerical values like gps_height; negative, out of range values was replaced with average of the category.
+To further reduce dimensions of categorical data count of any category with less than 60(0.1%) occurance was named as "Rare".
+categories: num_private, recorded_by, quantity_group, waterpoint_type_group was dropped as they were redundant.
+After checking the correlation between the categorical data using Cramers correlation,categories with 0.9 or greater value was dropped.
+List of dropped: lga, extraction_type_group, extraction_typr_class, management_group, source_typr, source_class.
+scheme_name was also dropped as over 70% data was Rare categorical value, thus doesn't give lot of information.
