@@ -1,4 +1,7 @@
 # Predictive-Maintenance
+
+https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/
+
 Big Data analytics to categorize a pump into 3 categories and schedule maintenance.
 
 DrivenData Pump it up: data mining the water table
