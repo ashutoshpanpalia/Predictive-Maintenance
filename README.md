@@ -1,19 +1,51 @@
-# Predictive-Maintenance
-
 https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/
 
-Big Data analytics to categorize a pump into 3 categories and schedule maintenance.
+# Pump It Up: Data Mining for Water Pump Functionality in Tanzania
+This repository documents my approach to the DrivenData challenge, "Pump It Up: Data Mining the Water Table". The goal of this competition was to predict the functionality (functional, needs repair, non-functional) of water pumps in Tanzania using provided data.
 
-DrivenData Pump it up: data mining the water table
+## Project Overview
 
-My Approach:
+# Competition: 
+Pump It Up: Data Mining the Water Table (https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/)
 
-Combine the data and use matlab for data preprocessing:
+# Goal: 
+Predict functionality of water pumps in Tanzania
+# Data Source: 
+Tanzanian water source data provided by DrivenData
 
-Pre-processing was done to reduce dimensionality.
+# My Approach
 
-Pandas dummy variable was used to convert categorical data.
+## Data Preprocessing and Feature Engineering:
 
-Standard_scalar was used to scale all the data to[-1 , 1]
+Combined training and testing data for preprocessing.
 
-RandomForest algorithm was used after optimizing using GridSearchCV
+Reduced dimensionality using feature selection techniques.
+
+Converted categorical data into numerical features using Pandas dummy encoding.
+Standardized all features to a range of [-1, 1] using scikit-learn's StandardScaler.
+
+## Model Development:
+
+Employed a Random Forest classification algorithm for prediction.
+
+Optimized hyperparameters using GridSearchCV to improve model performance.
+Further Considerations
+
+## Results:
+
+Rank: 6602/16914 
+
+
+# Next Steps
+
+This repository will be further developed to include the following:
+Code for data preprocessing, feature engineering, and model training.
+
+# Libraries Used
+
+Pandas
+scikit-learn
+
+# Disclaimer
+
+This work is for educational and competition purposes only.
