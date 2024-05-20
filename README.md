@@ -3,14 +3,15 @@ https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table
 # Pump It Up: Data Mining for Water Pump Functionality in Tanzania
 This repository documents my approach to the DrivenData challenge, "Pump It Up: Data Mining the Water Table". The goal of this competition was to predict the functionality (functional, needs repair, non-functional) of water pumps in Tanzania using provided data.
 
-## Project Overview
+# Project Overview
 
-# Competition: 
+## Competition: 
 Pump It Up: Data Mining the Water Table (https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/)
 
-# Goal: 
+## Goal: 
 Predict functionality of water pumps in Tanzania
-# Data Source: 
+
+## Data Source: 
 Tanzanian water source data provided by DrivenData
 
 # My Approach
@@ -44,6 +45,7 @@ Code for data preprocessing, feature engineering, and model training.
 # Libraries Used
 
 Pandas
+
 scikit-learn
 
 # Disclaimer
